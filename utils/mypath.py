@@ -12,16 +12,16 @@ class MyPath(object):
         assert(database in db_names)
 
         if database == 'cifar-10':
-            return '/path/to/cifar-10/'
+            return '/Users/krishna/Desktop/trial /simclr_cifar-10.pth.tar'
         
         elif database == 'cifar-20':
-            return '/path/to/cifar-20/'
+            return '/Users/krishna/Desktop/trial /simclr_cifar-20.pth.tar'
 
         elif database == 'stl-10':
-            return '/path/to/stl-10/'
+            return '/Users/krishna/Desktop/trial /simclr_stl-10.pth.tar'
         
-        elif database in ['imagenet', 'imagenet_50', 'imagenet_100', 'imagenet_200']:
-            return '/path/to/imagenet/'
+       ## elif database in ['imagenet', 'imagenet_50', 'imagenet_100', 'imagenet_200']:
+            ##return '/path/to/imagenet/'
         
         else:
             raise NotImplementedError
